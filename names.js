@@ -13,10 +13,10 @@ function nameGenerator() {
             "Amelia"
         ],
         currentName: "",
-    }
 
-    getRandomName() {
+        getRandomName() {
         const randomIndex = Math.floor(Math.random() * this.name.length);
         this.currentName = this.names[randomIndex];
-    }
+        }
+    };
 }
