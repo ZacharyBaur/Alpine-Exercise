@@ -15,7 +15,7 @@ function nameGenerator() {
         currentName: "",
 
         getRandomName() {
-        const randomIndex = Math.floor(Math.random() * this.name.length);
+        const randomIndex = Math.floor(Math.random() * this.names.length);
         this.currentName = this.names[randomIndex];
         }
     };
